@@ -26,3 +26,4 @@ echo "ppksgopin  ALL=(ALL)  NOPASSWD:ALL" > /etc/sudoers.d/ppksgopin
 
 apt-get update -y && apt --fix-broken install -y && apt-get upgrade -y
 
+reboot
