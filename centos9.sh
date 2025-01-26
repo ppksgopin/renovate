@@ -2,7 +2,7 @@
 
 sudo dnf groupinstall "Virtualization Host" -y
 sudo systemctl enable --now libvirtd && sudo systemctl start libvirtd
-sudo dnf -y install virt-top libguestfs-tools
+sudo dnf -y install virt-top libguestfs-tools git
 lsmod | grep kvm
 
 sudo dnf -y install dnf-plugins-core
