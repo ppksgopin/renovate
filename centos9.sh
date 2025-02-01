@@ -1,4 +1,5 @@
 # !/bin/bash
+dnf install {kernel-headers,kernel-devel} -y && dnf update -y 
 
 sudo dnf install epel-release -y
 
