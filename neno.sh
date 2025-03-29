@@ -2,7 +2,7 @@
 
 mkdir /etc/apt/apt.conf.d/off && mv /etc/apt/apt.conf.d/20apt-esm-hook.conf /etc/apt/apt.conf.d/off  
 
-apt-get update -y && -y && apt-get upgrade -y
+apt-get update -y && apt-get upgrade -y
 
 apt purge kate -y && apt autoremove -y
 
